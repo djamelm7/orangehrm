@@ -1,0 +1,44 @@
+body{
+   background: linear-gradient(120deg, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:100%;
+   font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    display: flex;
+overflow-y: hidden;}
+.mr h5{
+    font-size: 50px;
+}
+.form-signin .form-label-group input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+ }
+.btco{
+   font-weight: 200;
+    font-size: 13px;
+    color: #F2F2F2;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+    background-color: #4759B8;
+}
+.btco:hover{
+    background-color:#667db6 ;
+}
+
+.fn label,.md a{
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+.cntr{
+    margin-top:15px;
+  width: 100%;
+  height: 95%;
+}
+.md a,.fn label,.ft{
+    font-size:15px;
+}
+body{
+    overflow-y: visible;
+}
+}
