@@ -15,6 +15,9 @@ class loginAction extends sfAction {
         $loginForm = new LoginForm();
         $this->message = $this->getUser()->getFlash('message');
         $this->form = $loginForm;
+        
+        $this->setTemplate('con');
+        $this->setLayout('lo-noheader');
     }
 
     /**
